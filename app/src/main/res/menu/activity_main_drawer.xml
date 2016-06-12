@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_userprofile"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Profile" />
+        <item
+            android:id="@+id/nav_share_earn"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Share And Earn" />
+        <item
+            android:id="@+id/nav_registerPage"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Register Page" />
+        <item
+            android:id="@+id/nav_login"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Login Page" />
+        <item
+            android:id="@+id/nav_history"
+            android:icon="@drawable/ic_menu_send"
+            android:title="History Page" />
+        <item
+            android:id="@+id/nav_driver"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Driver Page" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/ic_menu_send"
+                android:title="About" />
+        </menu>
+    </item>
+
+</menu>

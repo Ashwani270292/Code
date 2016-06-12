@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#6affffff"
+    tools:context=".ui.LoginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:orientation="vertical"
+        android:background="#95fc6805"
+        android:layout_centerInParent="true"
+        android:weightSum="3">
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="USERNAME"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:textColor="#fff"
+                android:layout_weight="1"
+                />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="PASSWORD"
+            android:gravity="center"
+            android:inputType="textPassword"
+            android:textSize="20sp"
+            android:textColor="#fff"
+            android:layout_weight="1"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="16sp"
+            android:background="#a8ffffff"
+            android:layout_marginTop="12dp"
+            android:id="@+id/btnlogin"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Forgot Password?"
+            android:textColor="#fff"
+            android:layout_marginTop="12dp"
+            android:textSize="14dp"
+            android:gravity="end"
+            android:id="@+id/forgotpassword"
+            />
+
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>
