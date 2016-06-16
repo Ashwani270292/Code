@@ -36,5 +36,6 @@ dependencies {
     compile 'com.google.code.gson:gson:2.2.4'
     compile 'de.hdodenhof:circleimageview:2.0.0'
     compile 'me.tatarka.support:jobscheduler:0.1.1'
-
+    compile files('libs/android-async-http-1.4.3.jar')
+    compile files('libs/evo-inflector-1.0.1.jar')
 }

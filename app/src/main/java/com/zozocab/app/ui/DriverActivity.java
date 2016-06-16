@@ -25,7 +25,7 @@ public class DriverActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_driver);
+        setContentView(R.layout.driver_request_dialog);
 
         mVibrator = (Vibrator) getSystemService(Context.VIBRATOR_SERVICE);
         //linking components;

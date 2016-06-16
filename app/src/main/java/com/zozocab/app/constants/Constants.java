@@ -6,4 +6,5 @@ package com.zozocab.app.constants;
 public class Constants {
 
     public static String endpoint = "http://104.197.214.216:3000/api/";
+    public static final String SENDER_ID = "870722126122";
 }
